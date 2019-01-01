@@ -1,0 +1,9 @@
+# Reproduces https://nest.pijul.com/pmeunier/carnix/discussions/21
+
+[package]
+name = "reproduce_carnix_21"
+version = "0.1.0"
+authors = ["Peter Kolloch <info@eigenvalue.net>"]
+
+[dependencies]
+diesel = { version = "1.3", features = ["postgres", "chrono"] }

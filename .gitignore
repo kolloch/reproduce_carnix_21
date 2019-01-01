@@ -1,0 +1,5 @@
+/target
+**/*.rs.bk
+.pijul
+Cargo.nix
+crates-io.*
